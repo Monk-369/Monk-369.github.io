@@ -46,6 +46,24 @@
 				transition: .5s;
 			}
 		</style>
+		<script>
+			document.getElementById('myForm').addEventListener('submit', function(event) {
+			  event.preventDefault();
+
+			  var xhr = new XMLHttpRequest();
+			  xhr.open('POST', 'https://formspree.io/vuyisile.koahela@umuzi.org', true);
+			  xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+
+			  xhr.onreadystatechange = function() {
+				if (xhr.readyState === 4 && xhr.status === 200) {
+				  console.log(xhr.responseText);
+				}
+			  };
+
+			  var formData = new FormData(this);
+			  xhr.send(formData);
+			});
+		</script>
 	</head>
 	<body class="is-preload">
 
@@ -173,7 +191,7 @@
 				<!-- Footer -->
 					<footer id="footer">
 						<section>
-							<form method="post" action="process_form.php">
+							<form id="myForm" method="POST" action="#">
 								<div class="fields">
 									<div class="field">
 										<label for="name">Name</label>
