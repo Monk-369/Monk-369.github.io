@@ -20,12 +20,14 @@
 				margin-bottom: 10px;
 			}
 			.nav-style {
-				background: white;
+				position: fixed;
+				top: 0;
+				background: #f5f5f5;
 				height: 80px;
 				width: 100%;
+				z-index: 9999;
 			}
 			.nav-style ul {
-				float: right;
 				margin-right: 20px;
 			}
 			.nav-style ul li {
@@ -42,7 +44,7 @@
 				border-radius: 3px;
 			}
 			a.active,a:hover {
-				background: brown;
+				background: #bd6463;
 				transition: .5s;
 			}
 		</style>
@@ -56,7 +58,8 @@
 					<nav class="nav-style">
 							<ul class="links">
 								<li><a href="index.html">Home</a></li>
-								<li><a href="#footer">Contact Me</a></li>
+								<li><a class="active" href="project.html">Projects</a></li>
+								<li><a href="#footer">Contact</a></li>
 							</ul>
 						</nav>
 					<div id="intro">
@@ -79,12 +82,6 @@
 							<li><a href="cyber.html">Cyber Security Projects</a></li>
 							<li class="active"><a href="other.html">Other Projects</a></li>
 							<li><a href="artpage/html5up-multiverse/index.html">Art Projects</a></li>
-						</ul>
-						<ul class="icons">
-							<li><a href="https://twitter.com/FalseSFotos" class="icon brands fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
-							<li><a href="https://web.facebook.com/finest.monk1" class="icon brands fa-facebook-f" target="_blank"><span class="label">Facebook</span></a></li>
-							<li><a href="https://www.instagram.com/not_not_monk/" class="icon brands fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
-							<li><a href="https://github.com/Monk-369" class="icon brands fa-github" target="_blank"><span class="label">GitHub</span></a></li>
 						</ul>
 					</nav>
 
@@ -155,6 +152,12 @@
 								<h3>Email</h3>
 								<p><a href="#">vuyisile.koahela@umuzi.org</a></p>
 							</section>
+							<section><ul class="icons">
+							<li><a href="https://twitter.com/FalseSFotos" class="icon brands fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+							<li><a href="https://web.facebook.com/finest.monk1" class="icon brands fa-facebook-f" target="_blank"><span class="label">Facebook</span></a></li>
+							<li><a href="https://www.instagram.com/not_not_monk/" class="icon brands fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+							<li><a href="https://github.com/Monk-369" class="icon brands fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+						</ul></section>
 						</section>
 					</footer>
 			</div>

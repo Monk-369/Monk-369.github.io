@@ -13,19 +13,22 @@
     		}
     		.skill-list {
   				list-style: none;
-  				padding: 100px;
+  				padding: 0;
   				margin: 0;
 			}
 			.skill-list li {
-				margin-bottom: 10px;
+				margin-bottom: 0;
+				font-size: 30px;
 			}
 			.nav-style {
-				background: white;
+				position: fixed;
+				top: 0;
+				background: #f5f5f5;
 				height: 80px;
 				width: 100%;
+				z-index: 9999;
 			}
 			.nav-style ul {
-				float: right;
 				margin-right: 20px;
 			}
 			.nav-style ul li {
@@ -42,7 +45,7 @@
 				border-radius: 3px;
 			}
 			a.active,a:hover {
-				background: brown;
+				background: #bd6463;
 				transition: .5s;
 			}
 		</style>
@@ -56,40 +59,34 @@
 					<nav class="nav-style">
 							<ul class="links">
 								<li><a class="active" href="index.html">Home</a></li>
-								<li><a href="#main">About Me</a></li>
+								<li><a href="#main">About</a></li>
 								<li><a href="#skills">Skills</a></li>
-								<li><a href="#projects">Projects</a></li>
-								<li><a href="#footer">Contact Me</a></li>
+								<li><a href="project.html">Projects</a></li>
+								<li><a href="#footer">Contact</a></li>
 							</ul>
 						</nav>
 					<div id="intro">
-						<h1>Vuyisile Koahela<br />
-						Portfolio</h1>
-						<p style="font-weight: bold; font-size: 30px">I possess a strong ambition to pursue a career as a skilled professional in the field of data and cybersecurity analysis.<br />
+						<h1><a style="color: #d2ccc0">Vuyisile Koahela<br />
+						Portfolio</a></h1>
+						<p style="font-weight: bold; font-size: 30px; color: #d2ccc0">I possess a strong ambition to pursue a career as a skilled professional in the field of data and cybersecurity analysis.<br />
 							<a style="font-weight: bold" href="https://www.linkedin.com/in/vuyisile-koahela-7a89231a6/" target="_blank">@vuyisile</a></p>
 						<ul class="actions">
-							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+							<li><a style="color: #d2ccc0" href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
 						</ul>
 					</div>
 
 				<!-- Header -->
 					<header id="header">
-						<a class="logo">Welcome</a>
+						<a style="color: #d2ccc0" class="logo">Welcome</a>
 					</header>
 
 				<!-- Nav -->
 					<nav id="nav">
 						<ul class="links">
-							<li><a href="data.html">Data Engineering</a></li>
-							<li><a href="cyber.html">Cyber Security</a></li>
-							<li><a href="other.html">Other</a></li>
-							<li><a href="artpage/html5up-multiverse/index.html">Art</a></li>
-						</ul>
-						<ul class="icons">
-							<li><a href="https://twitter.com/FalseSFotos" class="icon brands fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
-							<li><a href="https://web.facebook.com/finest.monk1" class="icon brands fa-facebook-f" target="_blank"><span class="label">Facebook</span></a></li>
-							<li><a href="https://www.instagram.com/not_not_monk/" class="icon brands fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
-							<li><a href="https://github.com/Monk-369" class="icon brands fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+							<li><a style="color: #d2ccc0" href="data.html">Data Engineering</a></li>
+							<li><a style="color: #d2ccc0" href="cyber.html">Cyber Security</a></li>
+							<li><a style="color: #d2ccc0" href="other.html">Other</a></li>
+							<li><a style="color: #d2ccc0" href="artpage/html5up-multiverse/index.html">Art</a></li>
 						</ul>
 					</nav>
 
@@ -99,7 +96,7 @@
 						<!-- Featured Post -->
 							<article class="post featured">
 								<header class="major">
-									<h2><a>About Me</a></h2>
+									<h2><a>About</a></h2>
 									<p>Welcome to my online portfolio! I'm thrilled to have you here.
 									I am someone who is passionate about the dynamic fields of data analytics
 										and cybersecurity analysis. Delving into complex datasets, unraveling patterns, and extracting meaningful
@@ -116,79 +113,19 @@
 								<header class="major">
 									<h2 id="skills" class="special-heading"><a>Skills</a></h2>
 									<ul class="skill-list">
-										<li>* Python: I possess strong skills in Python programming, a versatile and widely-used language. I am proficient in
-											developing efficient and scalable solutions, utilizing libraries and frameworks such as Django and Flask.
-											With Python, I can create robust web applications, automate tasks, analyze data, and build machine learning models.</li>
-										<li>* SQL: I have expertise in working with Structured Query Language (SQL) for managing and manipulating relational databases.
-											I can efficiently write queries, create and modify database structures, retrieve and update data, and optimize database performance.
-											My knowledge of SQL allows me to handle complex data operations effectively.</li>
-										<li>* Cyber Security (Google Certificate): I am currently pursuing a Google certificate in Cyber Security, equipping me with
-											essential knowledge and practical skills to protect computer systems and networks from potential threats. This certification
-											demonstrates my commitment to maintaining a secure digital environment and my ability to implement security measures effectively.</li>
-										<li>* HTML and CSS: I am familiar with HTML (Hypertext Markup Language) and CSS (Cascading Style Sheets), fundamental languages
-											for building web pages. I can create well-structured and visually appealing websites, ensuring a seamless user experience.
-											Understanding HTML and CSS allows me to customize web elements and optimize website design.</li>
-										<li>* Figma: I am proficient in using Figma, a popular design tool for creating intuitive and interactive user interfaces.
-											With Figma, I can design wireframes, prototypes, and visual assets, collaborating seamlessly with other team members.
-											This skill enables me to translate design concepts into practical, user-centered interfaces.</li>
-										<li>* MongoDB and PostgreSQL: I am currently learning MongoDB and PostgreSQL, two powerful database management systems.
-											MongoDB is a NoSQL database that excels in handling unstructured data, while PostgreSQL is a robust relational database.
-											Acquiring knowledge in these databases allows me to work with diverse data storage and retrieval mechanisms, catering to
-											specific project requirements.</li>
-										<li>* Printmaking: As a skilled printmaker, I have mastered various techniques such as etching, lithography, relief printing,
-											and screenprinting. I understand the intricacies of printmaking processes, from designing and preparing matrices to printing editions.
-											Through my printmaking skills, I express creativity and craftsmanship in producing visually captivating artworks.</li>
+										<li>Python</li>
+										<li>SQL</li>
+										<li>Cyber Security (Google Certificate)</li>
+										<li>HTML and CSS</li>
+										<li>Figma</li>
+										<li>MongoDB and PostgreSQL</li>
+										<li>Printmaking</li>
 									</ul>
-									<p>By combining my expertise in Python, SQL, printmaking, Cyber Security, HTML, CSS, Figma, and my ongoing learning in MongoDB and PostgreSQL,
-										I bring a unique set of skills to the table, enabling me to tackle complex challenges and create impactful solutions in various domains.</p>
 								</header>
 							</article>
 
 						<!-- Posts -->
-								<h2 id="projects" class="special-heading"><a>Project Domains</a></h2>
-							<section class="posts">
 
-								<article>
-									<header>
-										<h2><a href="data.html">Data Engineering</a></h2>
-									</header>
-									<a href="data.html" class="image fit"><img src="images/luca-bravo-XJXWbfSo2f0-unsplash.jpg" alt="" /></a>
-									<p>Welcome to the data engineering domain! Here, you'll find a curated collection of my projects and accomplishments in the field of data engineering.</p>
-									<ul class="actions special">
-										<li><a href="data.html" class="button">Visit Domain</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<h2><a href="cyber.html">Cyber Security</a></h2>
-									</header>
-									<a href="cyber.html" class="image fit"><img src="images/markus-spiske-Skf7HxARcoc-unsplash.jpg" alt="" /></a>
-									<p>Welcome to my secure sanctuary, your gateway to the fascinating world of cyber security! As you enter my cyber security portfolio page, be prepared to embark on a thrilling expedition through the realms of protection, resilience, and digital defense.</p>
-									<ul class="actions special">
-										<li><a href="cyber.html" class="button">Visit Domain</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<h2><a href="artpage/html5up-multiverse/index.html">Art</a></h2>
-									</header>
-									<a href="artpage/html5up-multiverse/index.html" class="image fit"><img src="images/fresco-painting-of-nefertari-playing-senet-2.jpg" alt="" /></a>
-									<p>Welcome to my captivating collection of unique and diverse artworks and art projects. Step into a mesmerizing world carefully crafted to showcase the essence of art. With meticulous attention to detail, I have created this page to stand apart from the realms of data and security, allowing you to immerse yourself in a truly distinctive visual experience. Prepare to be enchanted by the exceptional design and presentation that echoes the inherent magic of art.</p>
-									<ul class="actions special">
-										<li><a href="artpage/html5up-multiverse/index.html" class="button">Visit Domain</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<h2><a href="other.html">Other</a></h2>
-									</header>
-									<a href="other.html" class="image fit"><img src="images/markus-spiske-iar-afB0QQw-unsplash.jpg" alt="" /></a>
-									<p>Here you will find other projects that are unrelated to my three main domains that were to cool for me to leave out!</p>
-									<ul class="actions special">
-										<li><a href="other.html" class="button">Visit Domain</a></li>
-									</ul>
-								</article>
-							</section>
 					</div>
 
 				<!-- Footer -->
@@ -229,6 +166,12 @@
 								<h3>Email</h3>
 								<p><a href="#">vuyisile.koahela@umuzi.org</a></p>
 							</section>
+							<section><ul class="icons">
+							<li><a href="https://twitter.com/FalseSFotos" class="icon brands fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+							<li><a href="https://web.facebook.com/finest.monk1" class="icon brands fa-facebook-f" target="_blank"><span class="label">Facebook</span></a></li>
+							<li><a href="https://www.instagram.com/not_not_monk/" class="icon brands fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+							<li><a href="https://github.com/Monk-369" class="icon brands fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+						</ul></section>
 						</section>
 					</footer>
 			</div>
